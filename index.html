@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio de Disciplinas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Portfólio de Disciplinas</h1>
+    <p>Aluno: João da Silva | Curso: Engenharia de Software</p>
+  </header>
+
+  <nav>
+    <div class="menu-container">
+      <a href="#" class="menu-item" onclick="mostrarConteudos('disciplinas')">Disciplinas</a>
+      <a href="#" class="menu-item" onclick="mostrarConteudos('conteudos')">Conteúdos</a>
+    </div>
+  </nav>
+
+  <div class="content-container">
+    <!-- Conteúdo dinâmico será carregado aqui -->
+    <div id="disciplinas" class="content">
+      <h2>Disciplinas</h2>
+      <ul>
+        <li>Matemática Discreta</li>
+        <li>Estruturas de Dados</li>
+        <li>Sistemas Operacionais</li>
+      </ul>
+    </div>
+    
+    <div id="conteudos" class="content" style="display: none;">
+      <h2>Conteúdos</h2>
+      <ul>
+        <li>Conceitos Básicos de Álgebra</li>
+        <li>Estruturas de Dados Lineares</li>
+        <li>Processos e Threads</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+
+</body>
+</html>
